@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="nl-NL">
+  <head>
+    <meta charset="UTF-8">
+    <title>Horizon Geodesie New</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="logo">
+        <img src="images/Transparant-logo-icon.png" alt="horizongeodesie logo" height="75" width="155.4347826087" class="horizongeodesie-logo">
+        <div class="logo-text">
+
+          <div class="h1">Horizon Geodesie</div>
+          <div class="logo-links">
+          <div class="logo-link">
+            <a href="#landmeten-anchor" class="landmeten" onclick="openPage(event, 'landmeten')">LANDMETEN</a>
+          </div>
+          <div class="logo-link">
+            <a href="#maatvoering-anchor" class="maatvoering" onclick="openPage(event, 'maatvoering')">MAATVOERING</a>
+          </div>
+          <div class="logo-link">
+            <a href="#opleiding-anchor" class="opleiding" onclick="openPage(event, 'opleiding')">OPLEIDING</a>
+          </div>
+        </div>
+        </div>
+      </div>
+
+      <div class="tab" id="mytab">
+
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+         <div class="tab-links">
+          <div class="tab-link">
+            <a href="#home-anchor" id="defaultOpen" onclick="openPage(event, 'home')">HOME</a>
+          </div>
+          <div class="tab-link">
+            <a href="#landmeten-anchor" class="anchor-link" onclick="openPage(event, 'landmeten')">LANDMETEN</a>
+          </div>
+          <div class="tab-link">
+            <a href="#maatvoering-anchor" class="anchor-link" onclick="openPage(event, 'maatvoering')">MAATVOERING</a>
+          </div>
+          <div class="tab-link">
+            <a href="#opleiding-anchor" class="anchor-link" onclick="openPage(event, 'opleiding')">OPLEIDING</a>
+          </div>
+          <div class="tab-link">
+            <a href="#kadaster-anchor" class="anchor-link" onclick="openPage(event, 'kadaster')">KADASTER</a>
+          </div>
+          <div class="tab-link" id="contact">
+            <a href="#contact-anchor" class="anchor-link" onclick="openPage(event, 'contact')">CONTACT</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
