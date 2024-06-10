@@ -52,7 +52,7 @@ a{
 }
 
 .logo img{
-  margin: 0 1rem 0 0;
+  margin-right: 12.5px;
 }
 
 .landmeten{
@@ -103,12 +103,14 @@ a{
 
   .icon{
     display: block;
-    margin: 34px 4vw auto auto;
+    margin: auto;
     font-size: 28px;
+    padding: 23.5px 63.711px;
   }
 
   .tab.responsive .icon{
-    margin: 34px 4vw auto auto;
+    margin: auto;
+    margin-top: 11px;
   }
 
   .tab-links{
@@ -117,7 +119,7 @@ a{
   }
 
   #contact{
-    padding-right: 4vw;
+    padding-right: 24px;
   }
 
     .tab.responsive {position: relative;}
@@ -130,48 +132,61 @@ a{
       float: none;
       display: block;
       text-align: right;
-      padding-right: 4vw;
+      padding: 8px 24px;
       background-color: #161616;
     }
 
     .tab.responsive .tab-links{
-      margin-top: 250px;
+      margin-top: 310px;
+      margin-left: -80px;
     }
 
 }
 
-@media screen and (max-width: 636px) {
-  .logo-text{
-    text-shadow:
-    -1px -1px 0 #161616,
-     0   -1px 0 #161616,
-     1px -1px 0 #161616,
-     1px  0   0 #161616,
-     1px  1px 0 #161616,
-     0    1px 0 #161616,
-    -1px  1px 0 #161616,
-    -1px  0   0 #161616;
+@media screen and (max-width: 652px) {
+  .header{
+    display: block;
+    margin-top: -12.5px;
+  }
 
-    margin: 0 auto;
-    z-index: 2;
+  .logo-text{
+    margin: 12.5px 0;
   }
 
   .logo{
     margin: 12.5px auto;
+    width: 467.922px;
   }
 
   .logo img{
-    margin: 0 -227.711px 0 auto;
-    display: none;
-    z-index: 1;
+    margin: 12.5px 12.5px 0 0;
   }
-  .header{
-    display: flex;
+
+  .icon{
+    margin: 0;
+    margin-top: 12.5px;
+    position: absolute;
+    right: 0;
+    top: 87.5px;
+    padding: 24px 24px 20px 24px;
+    background-color: #222;
   }
-  
+
+  .tab.responsive .icon{
+    margin-top: 12.5px;
+    padding: 24px 62.461px 20px 62.461px;
+  }
+
+  .tab.responsive .tab-links{
+    margin-top: 0px;
+    margin-left: 0px;
+    position: absolute;
+    right: 0;
+    top: 87.5px;
+  }
 }
 
-@media screen and (max-width:510px){
+@media screen and (max-width:492.922px){
   .header{
     display: list-item;
     margin-top: -12.5px;
@@ -187,12 +202,7 @@ a{
   }
 
   .logo img{
-    margin: 12.5px -227.711px 12.5px auto;
-    color: #161616;
     display: none;
   }
 
-  .icon{
-    float: right;
-  }
 }
