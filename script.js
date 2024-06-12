@@ -7,3 +7,8 @@ function myFunction() {
     x.className = "tab";
   }
 }
+
+/* Footer script */
+n =  new Date();
+y = n.getFullYear();
+document.getElementById("year").innerHTML = y;

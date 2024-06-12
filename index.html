@@ -5,6 +5,7 @@
     <title>Horizon Geodesie New</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <script src="script.js" defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
@@ -37,7 +38,7 @@
             </a>
          <div class="tab-links">
           <div class="tab-link">
-            <a href="#home-anchor" id="defaultOpen" onclick="openPage(event, 'home')">HOME</a>
+            <a href="#home-anchor" id="defaultOpen" class="anchor-link" onclick="openPage(event, 'home')">HOME</a>
           </div>
           <div class="tab-link">
             <a href="#landmeten-anchor" class="anchor-link" onclick="openPage(event, 'landmeten')">LANDMETEN</a>
@@ -61,7 +62,21 @@
 
 
     <div class="footer">
-      
+      <div class="footer-info">
+        <ul>
+          <li><a href="tel:+310622092727" target="_blank" rel="noopener noreferrer"><img src="images/phone-icon.png" height="32px" width="32px"><div>(06) 22 09 27 27</div></a></li>
+          <li><a href="mailto:info@horizongeodesie.nl" target="_blank" rel="noopener noreferrer"><img src="images/mail-icon.png" height="32px" width="32px"><div>info@horizongeodesie.nl</div></a></li>
+          <li><a href="https://wa.me/+310622092727" target="_blank" rel="noopener noreferrer"><img src="images/whatsapp-icon.png" height="32px" width="32px"><div>(06) 22 09 27 27</div></a></li>
+          <li><a href="https://www.google.nl/maps/place/Horizon+Geodesie/@52.0330385,6.4593058,17z/data=!3m1!4b1!4m6!3m5!1s0x47c7886032601acd:0x47c295274ae94773!8m2!3d52.0330352!4d6.4618807!16s%2Fg%2F1v2yy2vk?entry=ttu" target="_blank" rel="noopener noreferrer"><img src="images/location-icon.png" width="32px" height="32px"><div>Strengendijk 2, Ruurlo</div></a></li>
+          <li><a href="https://nl.linkedin.com/" target="_blank" rel="noopener noreferrer"><img src="images/linkedin-icon.png" height="32px" width="32px"><div>Horizon Geodesie</div></a></li>
+        </ul>
+
+      </div>
+      <div class="logo-copyright">
+        <p class="copyright">Copyright © <span id="year"></span> <span class="copyright-horizongeodesie">Horizon Geodesie</span>  Alle rechten voorbehouden.</p>
+      </div>
+ 
+
     </div>
   </body>
 </html>
