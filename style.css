@@ -167,9 +167,8 @@ a{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding: 0;
-  padding-top: 2vw;
-  padding-bottom: 1vw;
+  padding: 2vw 0;
+  margin: 0 auto;
 }
 
 .footer-info ul li a{
@@ -257,7 +256,7 @@ a{
     margin: auto;
     width: 467.922px;
     height: 75px;
-    padding: 12.5px;
+    padding: 12.5px 0;
   }
 
   .logo img{
@@ -325,5 +324,23 @@ a{
   .footer-info ul li a{
     height: 32px;
     width: 218px;
+  }
+}
+
+@media screen and (max-width:454px){
+  .footer-info ul li{
+    width: 300px;
+    margin-left: 4px;
+  }
+  
+  .logo-copyright{
+    width: 300px;
+    margin: auto;
+  }
+
+  .copyright{
+    width: 250px;
+    text-align: left;
+    margin-left: 8px;
   }
 }
