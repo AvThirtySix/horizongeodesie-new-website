@@ -246,7 +246,6 @@ a{
 @media screen and (max-width: 652px) {
   .header{
     display: block;
-    margin-top:;
     height: 100px;
   }
 
