@@ -10,7 +10,7 @@
 
 body{
   margin: 0;
-  background-color: #353535;
+  background-color: #333;
   display: flex;
   height: 100vh;
   flex-direction: column;
@@ -36,16 +36,18 @@ a{
 .header{
   display: flex;
   justify-content: space-between;
-  background-color: #161616;
+  background-color: #1a1a1a;
   box-sizing: border-box;
-  height: 100px;
+  height: 125px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  z-index: 5;
 }
 
 /* logo section */
 
 .logo{
   display: flex;
-  margin: 12.5px 0.5vw 12.5px 4vw;
+  margin: 25px 0.5vw 25px 4vw;
   font-size: 40px;
   color: white;
   height: 75px;
@@ -104,7 +106,6 @@ a{
 
 .tab-link{
   padding: 8px;
-  background-color: #161616;
   z-index: 2;
 }
 
@@ -143,12 +144,89 @@ a{
   display: none;
 }
 
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  margin: auto;
+  z-index: 1;
+}
+
+.img-1{
+  width: 100%;
+  max-width: 1000px;
+  height: 333px;
+  background-image: url('images/new-images/IMG-20240521-WA0000.jpg');
+  background-size: cover;
+  background-position: center center;
+  display: block;
+  margin: auto;
+}
+.img-2{
+  width: 100%;
+  max-width: 1000px;
+  height: 333px;
+  background-image: url('images/new-images/IMG-20240521-WA0001.jpg');
+  background-size: cover;
+  background-position: center center;
+  display: block;
+  margin: auto;
+}
+.img-3{
+  width: 100%;
+  max-width: 1000px;
+  height: 333px;
+  background-image: url('images/new-images/IMG-20240521-WA0002.jpg');
+  background-size: cover;
+  background-position: center center;
+  display: block;
+  margin: auto;
+}
+.img-4{
+  width: 100%;
+  max-width: 1000px;
+  height: 333px;
+  background-image: url('images/new-images/IMG-20240521-WA0003.jpg');
+  background-size: cover;
+  background-position: center center;
+  display: block;
+  margin: auto;
+}
+.img-5{
+  width: 100%;
+  max-width: 1000px;
+  height: 333px;
+  background-image: url('images/new-images/IMG-20240521-WA0004.jpg');
+  background-size: cover;
+  background-position: center center;
+  display: block;
+  margin: auto;
+}
+
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
 
 
 /* footer section */
 
 .footer{
-  background-color: #161616;
+  background-color: #1a1a1a;
   color: white;
 }
 
@@ -213,7 +291,7 @@ a{
 
   .tab.responsive .icon{
     margin: auto;
-    margin-top: 11px;
+    margin-top: 23.5px;
   }
 
   .tab-links{
@@ -232,7 +310,7 @@ a{
       display: block;
       text-align: right;
       padding: 8px 4vw;
-      background-color: #161616;
+      background-color: #1a1a1a;
     }
 
     .tab.responsive .tab-links{
@@ -245,7 +323,6 @@ a{
 @media screen and (max-width: 652px) {
   .header{
     display: block;
-    height: 100px;
   }
 
   .logo-text{
@@ -256,7 +333,7 @@ a{
     margin: auto;
     width: 467.922px;
     height: 75px;
-    padding: 12.5px 0;
+    padding: 25px 0;
   }
 
   .logo img{
@@ -268,9 +345,9 @@ a{
     margin-top: 12.5px;
     position: absolute;
     right: 0;
-    top: 87.5px;
+    top: 112.5px;
     padding: 6.25px 16px 8px 16px;
-    background-color: #161616;
+    background-color: #1a1a1a;
   }
 
   .tab{
@@ -291,7 +368,7 @@ a{
     right: 0;
     top: 0px;
     padding-top: 40px;
-    background-color: #161616;
+    background-color: #1a1a1a;
     z-index: 1;
   }
     .tab.responsive .tab-link{
@@ -303,7 +380,6 @@ a{
   .header{
     display: list-item;
     margin-top: 0px;
-    height: 100px;
   }
 
   .logo-text{
