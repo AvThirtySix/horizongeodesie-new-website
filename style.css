@@ -372,12 +372,13 @@ a{
 .diensten{
   font-size: calc(34px + 2vw);
   text-align: center;
+  text-shadow: 2px 2px 5px #1a1a1a;
 }
 
 .diensten-cards{
   display: flex;
-  justify-content: space-evenly;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .card{
@@ -398,9 +399,6 @@ a{
   border-bottom: #262626 solid 2px;;
 }
 
-.card-text{
-}
-
 .h4{
   font-size: 30px;
   margin: 25px;
@@ -410,6 +408,19 @@ a{
   margin: auto;
   width: 250px;
   font-size: 20px;
+  text-align: left;
+}
+
+.diensten-cards-sub1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.diensten-cards-sub2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 /* footer section */
