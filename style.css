@@ -466,18 +466,18 @@ a{
 @media screen and (max-width:674px){
   .footer-info ul li a{
     height: 32px;
-    width: 218px;
+    width: 300px;
   }
 }
 
 @media screen and (max-width:454px){
   .footer-info ul li{
-    width: 218px;
+    width: 300px;
     margin-left: 4px;
   }
   
   .logo-copyright{
-    width: 218px;
+    width: 300px;
     margin: auto;
   }
 
