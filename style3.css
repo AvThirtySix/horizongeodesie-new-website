@@ -140,6 +140,10 @@ a{
 }
 
 @media screen and (max-width: 1140px){
+.logo{
+  margin-right: 0;
+}
+
   .tab-link{
     display: none;
   }
@@ -153,7 +157,7 @@ a{
     display: block;
     margin: auto;
     font-size: 28px;
-    padding: 23.5px 4vw 23.5px 111.422px;
+    padding: 23.5px 4vw 23.5px 103.892px;
   }
 
   .tab.responsive .icon{
@@ -187,10 +191,7 @@ a{
 
 }
 
-@media screen and (max-width: 676px) {
-  .header{
-    display: block;
-  }
+@media screen and (max-width: 668px) {
 
   .logo-text{
     margin: 0;
@@ -198,6 +199,7 @@ a{
   }
 
   .logo{
+    margin-left: 25px;
     margin: auto;
     width: 467.922px;
     height: 75px;
@@ -208,40 +210,7 @@ a{
     margin: 0 12.5px 0 0;
   }
 
-  .icon{
-    margin: 0;
-    margin-top: 12.5px;
-    position: absolute;
-    right: 0;
-    top: 112.5px;
-    padding: 6.25px 16px 8px 16px;
-    background-color: #1a1a1a;
-  }
 
-  .tab{
-    float: right;
-  }
-
-  .tab.responsive .icon{
-    margin-top: 0px;
-    padding: 6.25px 16px 4px 16px;
-    position: absolute;
-    z-index: 2;
-  }
-
-  .tab.responsive .tab-links{
-    margin-top: 0px;
-    margin-left: 0px;
-    position: absolute;
-    right: 0;
-    top: 0px;
-    padding-top: 40px;
-    background-color: #1a1a1a;
-    z-index: 1;
-  }
-    .tab.responsive .tab-link{
-    padding-right: 16px;
-  }
 }
 
 @media screen and (max-width:492.922px){
