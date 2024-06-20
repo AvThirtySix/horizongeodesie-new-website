@@ -343,16 +343,57 @@ a{
 /* tab content */
 .tabcontent {
   animation: fadeEffect 1s; /* Fading effect takes 1 second */
+  display: none;
+}
+
+/* contact section */
+.contact-info ul{
+  display: block;
+  box-sizing: border-box;
+  justify-content: space-around;
+  padding: 2vw 0;
+  margin: 25px auto;
+  width: calc(242px + 4vw) !important;
+}
+
+.contact-info ul li{
+  font-size: calc(19px + 0.333vw);
+  margin: 12.5px 0;
+}
+
+.contact-info ul li a{
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  margin-left: 0px;
+  width: 300px;
+}
+
+.contact-info ul li img{
+  height: calc(31px + .333vw);
+  width: calc(31px + .333vw);
+}
+
+.contact-info ul li a:hover{
+  color: #5dc1e8;
+}
+
+.contact-info ul li a:hover img{
+  opacity: 0.25;
+}
+
+.contact-info ul li img:hover{
+  border-radius: 50%;
+}
+
+.contact-info ul li a div{
+  margin-left: 8px;
 }
 
 /* Go from zero to full opacity */
 @keyframes fadeEffect {
   from {opacity: 0;}
   to {opacity: 1;}
-}
-
-.tabcontent {
-  display: none;
 }
 
 /* Slideshow container */
@@ -555,13 +596,13 @@ a{
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 2vw 0;
-  margin: 0 auto;
+  margin: 25px auto;
 }
 
 .footer-info ul li a{
   display: flex;
   align-items: center;
-  margin: 1vw;
+  margin: 6.25px;
 }
 
 .footer-info ul li a:hover{
@@ -584,14 +625,14 @@ a{
 @media screen and (max-width:674px){
   .footer-info ul li a{
     height: 32px;
-    width: 300px;
+    width: calc(242px + 4vw) !important;
   }
   
 }
 
 @media screen and (max-width:640px){
   .logo-copyright{
-    width: 300px;
+    width: calc(242px + 4vw) !important;
     margin: auto;
   }
 
@@ -605,12 +646,12 @@ a{
 
 @media screen and (max-width:454px){
   .footer-info ul li{
-    width: 300px;
+    width: calc(242px + 4vw) !important;
     margin-left: 4px;
   }
   
   .logo-copyright{
-    width: 300px;
+    width: calc(242px + 4vw) !important;
     margin: auto;
   }
 
