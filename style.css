@@ -110,6 +110,7 @@ a{
 .logo-text a .anchor-link:hover{
   background-color: #262626;
   color: #5dc1e8;
+  text-shadow: 2px 2px 5px #1a1a1a;
 }
 
 .landmeten{
@@ -139,12 +140,15 @@ a{
 }
 .landmeten:hover{
   background-color: #262626;
+  text-shadow: 2px 2px 5px #1a1a1a;
 }
 .maatvoering:hover{
   background-color: #262626;
+  text-shadow: 2px 2px 5px #1a1a1a;
 }
 .opleiding:hover{
   background-color: #262626;
+  text-shadow: 2px 2px 5px #1a1a1a;
 }
 
 
@@ -173,7 +177,7 @@ a{
 
 .tab-links a button{
   padding: 12px;
-  font-size: 16px;
+  font-size: 20px;
   background-color: #1a1a1a;
   color: #fff;
   border: none;
@@ -183,6 +187,7 @@ a{
 }
 .tab-links a button:hover{
   background-color: #262626;
+  text-shadow: 2px 2px 5px #1a1a1a;
 }
 
 .tab.responsive .icon{
@@ -207,7 +212,7 @@ a{
   padding-bottom: 8px;
 }
 
-@media screen and (max-width: 1140px){
+@media screen and (max-width: 1240px){
   .tab-link{
     display: none;
   }
@@ -255,7 +260,7 @@ a{
     }
 
     .tab.responsive .tab-links{
-      margin-top: 300px;
+      margin-top: 320px;
       margin-left: -80px;
     }
 
@@ -347,21 +352,45 @@ a{
 }
 
 /* contact section */
-.contact-info ul{
+.contact-info{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contact-info .img{
+  width: calc(242px + 4vw);
+  margin-right: 3vw;
+}
+
+.contact-info .img img{
+  width: calc(200px + 4vw);
+  margin: 37.5px 12.5px;
+  height: auto;
+  border: #1a1a1a 2px solid;
+  border-radius: 12.5px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  float: right;
+}
+
+.contact-info .ul{
+  margin-left: 3vw;
+}
+
+.contact-info .ul ul{
   display: block;
   box-sizing: border-box;
-  justify-content: space-around;
   padding: 2vw 0;
-  margin: 25px auto;
+  margin: 0 12.5px;
   width: calc(242px + 4vw) !important;
 }
 
-.contact-info ul li{
+.contact-info .ul ul li{
   font-size: calc(19px + 0.333vw);
   margin: 12.5px 0;
 }
 
-.contact-info ul li a{
+.contact-info .ul ul li a{
   display: flex;
   align-items: center;
   margin: 0 auto;
@@ -369,25 +398,29 @@ a{
   width: 300px;
 }
 
-.contact-info ul li img{
+.contact-info .ul ul li img{
   height: calc(31px + .333vw);
   width: calc(31px + .333vw);
 }
 
-.contact-info ul li a:hover{
+.contact-info .ul ul li a:hover{
   color: #5dc1e8;
 }
 
-.contact-info ul li a:hover img{
-  opacity: 0.25;
-}
-
-.contact-info ul li img:hover{
+.contact-info .ul ul li a:hover img{
+  opacity: 0.8;
+  box-shadow: #5dc1e8 0px 2px 4px 0px, #5dc1e8 0px 2px 16px 0px;
   border-radius: 50%;
 }
 
 .contact-info ul li a div{
   margin-left: 8px;
+}
+
+@media screen and (max-width:609px){
+  .contact-info .img img{
+    float: left;
+  }
 }
 
 /* Go from zero to full opacity */
@@ -523,6 +556,13 @@ a{
   padding-bottom: 25px;
 }
 
+.card:hover{
+  border: #5dc1e8 2px solid;
+  margin-left: 23px;
+  margin-right: 23px;
+  padding-bottom: 21px;
+}
+
 .card img{
   border-top-left-radius: 12.5px;
   border-top-right-radius: 12.5px;
@@ -532,6 +572,16 @@ a{
 .h4{
   font-size: 30px;
   margin: 25px;
+}
+
+.h4.landmeten1{
+  color: #42b84c;
+}
+.h4.maatvoering1{
+  color: #5dc1e8;
+}
+.h4.opleiding1{
+  color: #ababab;
 }
 
 .card-p2{
@@ -607,13 +657,12 @@ a{
 
 .footer-info ul li a:hover{
   color: #5dc1e8;
+  text-shadow: 2px 2px 5px #1a1a1a;
 }
 
 .footer-info ul li a:hover img{
-  opacity: 0.25;
-}
-
-.footer-info ul li img:hover{
+  opacity: 0.8;
+  box-shadow: #5dc1e8 0px 2px 4px 0px, #5dc1e8 0px 2px 16px 0px;
   border-radius: 50%;
 }
 
