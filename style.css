@@ -579,6 +579,10 @@ ul{
 .home-info h2{
   font-style: italic;
   font-weight: 200;
+  width: 80%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .home-info-p{
