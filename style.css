@@ -396,19 +396,19 @@ ul{
   margin-bottom: 25px;
   padding-left: 0;
 }
-#opleiding h2{
+#opleiding-pagina h2{
   width: 80%;
   max-width: 800px;
   margin-left: auto;
   margin-right: auto
 }
-#opleiding h3{
+#opleiding-pagina h3{
   width: 80%;
   max-width: 800px;
   margin-left: auto;
   margin-right: auto
 }
-#opleiding ul{
+#opleiding-pagina ul{
   display: block;
   width: 80%;
   max-width: 720px;
@@ -416,7 +416,7 @@ ul{
   margin-bottom: 50px;
   padding-left: 40px;
 }
-#opleiding ul li{
+#opleiding-pagina ul li{
   list-style: disc;
 }
 

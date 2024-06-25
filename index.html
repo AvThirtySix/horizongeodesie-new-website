@@ -2,7 +2,9 @@
 <html lang="nl-NL">
   <head>
     <meta charset="UTF-8">
-    <title>Horizon Geodesie New</title>
+    <title>Horizon Geodesie Landmeten Maatvoering Opleiding Kadaster</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="discription" content="Horizon Geodesie is een eenmanszaak die zich bezig houdt met landmeten, maatvoering, kadaster en het verzorgen van opleidingen binnen deze genoemde onderwerpen">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer">
@@ -16,19 +18,19 @@
         <img src="images/Transparant-logo-icon.png" alt="horizongeodesie logo" height="75" width="155.4347826087" class="horizongeodesie-logo">
         <div class="logo-text">
 
-          <a href="#home-anchor" class="horizon-geodesie">
+          <a href="#home" class="horizon-geodesie" aria-current="page">
             <button id="defaultOpen" class="anchor-link" onclick="openPage(event, 'home')">Horizon Geodesie</button>
           </a>
 
           <div class="logo-links">
-          <a href="#landmeten-anchor" class="logo-link">
-            <button class="landmeten" onclick="openPage(event, 'landmeten')">LANDMETEN</button>
+          <a href="#landmeten" class="logo-link" aria-current="page">
+            <button class="landmeten" onclick="openPage(event, 'landmeten-pagina')">LANDMETEN</button>
           </a>
-          <a href="#maatvoering-anchor" class="logo-link">
-            <button class="maatvoering" onclick="openPage(event, 'maatvoering')">MAATVOERING</button>
+          <a href="#maatvoering" class="logo-link" aria-current="page">
+            <button class="maatvoering" onclick="openPage(event, 'maatvoering-pagina')">MAATVOERING</button>
           </a>
-          <a href="#opleiding-anchor" class="logo-link">
-            <button class="opleiding" onclick="openPage(event, 'opleiding')">OPLEIDING</button>
+          <a href="#opleiding" class="logo-link" aria-current="page">
+            <button class="opleiding" onclick="openPage(event, 'opleiding-pagina')">OPLEIDING</button>
           </a>
         </div>
         </div>
@@ -40,23 +42,23 @@
               <i class="fa fa-bars"></i>
             </a>
          <div class="tab-links">
-          <a href="#home-anchor" class="tab-link">
+          <a href="#home" class="tab-link" aria-current="page">
             <button id="defaultOpen" class="anchor-link" onclick="openPage(event, 'home')">HOME</button>
           </a>
-          <a href="#landmeten-anchor" class="tab-link">
-            <button class="anchor-link" onclick="openPage(event, 'landmeten')">LANDMETEN</button>
+          <a href="#landmeten" class="tab-link" aria-current="page">
+            <button class="anchor-link" onclick="openPage(event, 'landmeten-pagina')">LANDMETEN</button>
           </a>
-          <a href="#maatvoering-anchor" class="tab-link">
-            <button class="anchor-link" onclick="openPage(event, 'maatvoering')">MAATVOERING</button>
+          <a href="#maatvoering" class="tab-link" aria-current="page">
+            <button class="anchor-link" onclick="openPage(event, 'maatvoering-pagina')">MAATVOERING</button>
           </a>
-          <a href="#opleiding-anchor" class="tab-link">
-            <button class="anchor-link" onclick="openPage(event, 'opleiding')">OPLEIDING</button>
+          <a href="#opleiding" class="tab-link" aria-current="page">
+            <button class="anchor-link" onclick="openPage(event, 'opleiding-pagina')">OPLEIDING</button>
           </a>
-          <a href="#kadaster-anchor" class="tab-link">
-            <button class="anchor-link" onclick="openPage(event, 'kadaster')">KADASTER</button>
+          <a href="#kadaster" class="tab-link" aria-current="page">
+            <button class="anchor-link" onclick="openPage(event, 'kadaster-pagina')">KADASTER</button>
           </a>
-          <a href="#contact-anchor" class="tab-link">
-            <button class="anchor-link" onclick="openPage(event, 'contact')">CONTACT</button>
+          <a href="#contact" class="tab-link" aria-current="page">
+            <button class="anchor-link" onclick="openPage(event, 'contact-pagina')">CONTACT</button>
           </a>
         </div>
       </div>
@@ -95,8 +97,8 @@
               <h1>Diensten</h1>
               <div class="diensten-cards">
                 <div class="diensten-cards-sub1">
-                  <a href="#landmeten-anchor">
-                    <div onclick="openPage(event, 'landmeten')" class="card landmeten-card">
+                  <a href="#landmeten" aria-current="page">
+                    <div onclick="openPage(event, 'landmeten-pagina')" class="card landmeten-card">
                       <img src="images/new-images/IMG-20240521-WA0000.jpg" alt="landmeten afbeelding" width="300px" height="200px">
                       <div class="card-text">
                         <p class="h4 landmeten1">Landmeten</p>
@@ -104,8 +106,8 @@
                       </div>
                     </div>
                   </a>
-                  <a href="#maatvoering-anchor">
-                    <div onclick="openPage(event, 'maatvoering')" class="card maatvoering-card">
+                  <a href="#maatvoering" aria-current="page">
+                    <div onclick="openPage(event, 'maatvoering-pagina')" class="card maatvoering-card">
                       <img src="images/new-images/IMG-20240521-WA0001.jpg" alt="maatvoering afbeelding" width="300px" height="200px">
                       <div class="card-text">
                         <p class="h4 maatvoering1">Maatvoering</p>
@@ -115,8 +117,8 @@
                   </a>
                 </div>
                 <div class="diensten-cards-sub2">
-                  <a href="#opleiding-anchor">
-                    <div onclick="openPage(event, 'opleiding')" class="card opleiding-card">
+                  <a href="#opleiding" aria-current="page">
+                    <div onclick="openPage(event, 'opleiding-pagina')" class="card opleiding-card">
                       <img src="images/new-images/IMG-20240521-WA0026.jpg" alt="opleiding afbeelding" width="300px" height="200px">
                       <div class="card-text">
                         <p class="h4 opleiding1">Opleiding</p>
@@ -124,8 +126,8 @@
                       </div>
                     </div>
                   </a>
-                  <a href="#kadaster-anchor">
-                    <div onclick="openPage(event, 'kadaster')" class="card kadaster-card">
+                  <a href="#kadaster" aria-current="page">
+                    <div onclick="openPage(event, 'kadaster-pagina')" class="card kadaster-card">
                       <img src="images/new-images/IMG-20240521-WA0002.jpg" alt="kadaster afbeelding" width="300px" height="200px">
                       <div class="card-text">
                         <p class="h4 kadaster1">Kadaster</p>
@@ -138,9 +140,9 @@
           </div>
     
           <div class="infotabs">
-            <div id="landmeten" class="tabcontent">
+            <div id="landmeten-pagina" class="tabcontent">
               <img class="img-1">
-              <h1 id="landmeten-anchor">Landmeten</h1>
+              <h1 id="landmeten">Landmeten</h1>
               <ul>
                 <li>Deformatie XYZ</li>
                 <li>Revisie</li>
@@ -153,18 +155,18 @@
               </ul>
             </div>
         
-            <div id="maatvoering" class="tabcontent">
+            <div id="maatvoering-pagina" class="tabcontent">
               <img class="img-2">
-              <h1 id="maatvoering-anchor">maatvoering</h1>
+              <h1 id="maatvoering">maatvoering</h1>
               <ul>
                 <li>Bouw</li>
                 <li>Wegenbouw</li>
               </ul>
             </div>
     
-            <div id="opleiding" class="tabcontent">
+            <div id="opleiding-pagina" class="tabcontent">
               <img class="img-3">
-              <h1 id="opleiding-anchor">opleiding</h1>
+              <h1 id="opleiding">opleiding</h1>
               <ul>
                 <li>Basis Landmeetkunde </li>
                 <li>Meten met GNSS</li>
@@ -343,9 +345,9 @@
               </ul>
             </div>
 
-            <div id="kadaster" class="tabcontent">
+            <div id="kadaster-pagina" class="tabcontent">
               <img class="img-4">
-              <h1 id="kadaster-anchor">Kadaster</h1>
+              <h1 id="kadaster">Kadaster</h1>
               <ul>
                 <li>Reconstructie</li>
                 <li>Meetgegevens Derden</li>
@@ -353,8 +355,8 @@
               </ul>
             </div>
     
-            <div id="contact" class="tabcontent">
-              <h2 id="contact-anchor">Contact</h2>
+            <div id="contact-pagina" class="tabcontent">
+              <h2 id="contact">Contact</h2>
               <div class="contact-info">
                 <div class="img">
                   <img src="images/default-profile-picture.jpg" alt="profiel foto Chris van Trigt">
