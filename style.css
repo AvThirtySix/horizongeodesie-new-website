@@ -227,12 +227,10 @@ ul{
 
 .icon:hover{
   color: #5dc1e8;
-  transition: .5s;
 }
 
 .tab.responsive .icon:hover{
   color: #5dc1e8;
-  transition: .5s;
 }
 
 .tab.responsive .icon{
