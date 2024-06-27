@@ -715,10 +715,17 @@ ul{
 }
 .ul-margin li{
   width: 100%;
+  list-style-type: disc;
 }
 .ul-margin-ul{
   margin: 0 auto !important;
   padding: 0 !important;
+}
+.ul-margin-ul li{
+  list-style-type: disc;
+}
+.ul-margin-ul ol li{
+  list-style-type: decimal;
 }
 
 
