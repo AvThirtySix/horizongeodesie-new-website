@@ -689,49 +689,7 @@ ul{
   margin-bottom: 25px;
   padding-left: 0;
 }
-#opleiding-pagina h2{
-  width: 80%;
-  max-width: 500px;
-  margin-left: auto;
-  margin-right: auto
-}
-#opleiding-pagina h3{
-  width: 80%;
-  max-width: 500px;
-  margin-left: auto;
-  margin-right: auto
-}
-#opleiding-pagina ul{
-  display: block;
-  width: 80%;
-  max-width: 420px;
-  margin: auto;
-  margin-bottom: 50px;
-  padding-left: 10%;
-  box-sizing: border-box;
-}
-.ul-margin{
-  margin: 0 auto !important;
-  padding: 0 !important;
-}
-.ul-margin li{
-  width: 100%;
-}
-.ul-margin-ul{
-  margin: 0 auto !important;
-  padding: 0 !important;
-}
-h1#opleiding{
-  width: 400px;
-  margin-left: auto;
-  margin-right: auto;
-}
-#opleiding-pagina ul li{
-  list-style: disc;
-}
-#opleiding-pagina ul ol li{
-  list-style-type: decimal;
-}
+
 
 
 /* contact section */
