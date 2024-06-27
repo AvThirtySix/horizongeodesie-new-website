@@ -281,6 +281,7 @@ body{
   display: flex;
   height: 100vh;
   flex-direction: column;
+  overflow-x: hidden;
 }
 
 .body-div{
@@ -702,7 +703,7 @@ ul{
   max-width: 420px;
   margin: auto;
   margin-bottom: 50px;
-  padding-left: 40px;
+  padding-left: 10%;
   box-sizing: border-box;
 }
 .ul-margin{
