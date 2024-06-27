@@ -272,6 +272,10 @@
   list-style-type: none;
 }
 
+html{
+  width: 100vw !important;
+}
+
 body{
   margin: 0;
   display: flex;
@@ -586,6 +590,7 @@ ul{
 
   .icon{
     margin: 0;
+    margin-right: -15px;
     margin-top: 12.5px;
     position: absolute;
     right: 0;
@@ -699,6 +704,7 @@ ul{
   margin: auto;
   margin-bottom: 50px;
   padding-left: 40px;
+  box-sizing: border-box;
 }
 .ul-margin{
   margin: 0 auto !important;
