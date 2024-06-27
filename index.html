@@ -74,26 +74,44 @@
         <!-- Tab content -->
         <div class="all-tabs">
           <div id="home" class="tabcontent">
-            <div class="slideshow-container">
-              <div class="mySlides fade">
-               <img class="img-1">
+            <div class="home-info">
+              <div class="home-info-text">
+                <div class="home-info-text-text">
+                  <h1>
+                    <a href="#landmeten" class="anchor-link landmeten1" onclick="openPage(event, 'landmeten-pagina')">Landmeten,</a>
+                    <a href="#maatvoering" class="anchor-link maatvoering1" onclick="openPage(event, 'maatvoering-pagina')">Maatvoering,</a>
+                    <a href="#opleidingen" class="anchor-link opleiding1" onclick="openPage(event, 'opleiding-pagina')">Opleiding</a>
+                    en 
+                    <a href="#kadaster" class="anchor-link kadaster1" onclick="openPage(event, 'kadaster-pagina')">Kadaster</a>
+                  </h1>
+                  <p>Horizon Geodesie ondersteunt bedrijven, particulieren en de overheid met al hun vraagstukken en opdrachten op het gebied van 
+                    <a href="#landmeten" class="anchor-link landmeten1" onclick="openPage(event, 'landmeten-pagina')">landmeetkunde,</a>
+                    <a href="#maatvoering" class="anchor-link maatvoering1" onclick="openPage(event, 'maatvoering-pagina')">maatvoering</a>
+                    en 
+                    <a href="#kadaster" class="anchor-link kadaster1" onclick="openPage(event, 'kadaster-pagina')">kadaster.</a>
+                      Daarnaast biedt Horizon Geodesie 
+                    <a href="#opleidingen" class="anchor-link opleiding1" onclick="openPage(event, 'opleiding-pagina')">opleidingen</a>
+                      aan binnen deze vakgebieden.</p>
+                  </div>
+                   <a href="#contact" class="cta-link" aria-current="page">
+                     <button class="anchor-link" onclick="openPage(event, 'contact-pagina')">NEEM CONTACT OP</button>
+                   </a>
               </div>
-        
-              <div class="mySlides fade">
-                <img class="img-2">
-              </div>
-        
-              <div class="mySlides fade">
-                <img class="img-3">
+              <div class="slideshow-container">
+                <div class="mySlides fade">
+                <img class="img-1">
+                </div>
+          
+                <div class="mySlides fade">
+                  <img class="img-2">
+                </div>
+          
+                <div class="mySlides fade">
+                  <img class="img-3">
+                </div>
               </div>
             </div>
-
-              <div class="home-info">
-                <h1>Horizon Geodesie</h1>
-                <h2>Samen werken aan de oplossing</h2>
-                <p class="home-info-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus pretium quam vulputate dignissim suspendisse in. Nunc eget lorem dolor sed viverra ipsum nunc aliquet. Volutpat sed cras ornare arcu dui vivamus arcu. Sollicitudin tempor id eu nisl nunc. Enim ut sem viverra aliquet eget sit amet. Rhoncus urna neque viverra justo nec ultrices dui. Amet consectetur adipiscing elit pellentesque. Vel facilisis volutpat est velit egestas.</p>
-              </div>
-
+            <div class="border"></div>
               <h1>Diensten</h1>
               <div class="diensten-cards">
                 <div class="diensten-cards-sub1">
@@ -101,8 +119,8 @@
                     <div onclick="openPage(event, 'landmeten-pagina')" class="card landmeten-card">
                       <img src="images/new-images/IMG-20240521-WA0000.jpg" alt="landmeten afbeelding" width="300px" height="200px">
                       <div class="card-text">
-                        <p class="h4 landmeten1">Landmeten</p>
-                        <p class="card-p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Venenatis tellus in metus vulputate eu scelerisque felis.</p>
+                        <h2 class="h4 landmeten1">Landmeten</h2>
+                        <p class="card-p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                       </div>
                     </div>
                   </a>
@@ -110,8 +128,8 @@
                     <div onclick="openPage(event, 'maatvoering-pagina')" class="card maatvoering-card">
                       <img src="images/new-images/IMG-20240521-WA0001.jpg" alt="maatvoering afbeelding" width="300px" height="200px">
                       <div class="card-text">
-                        <p class="h4 maatvoering1">Maatvoering</p>
-                        <p class="card-p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Venenatis tellus in metus vulputate eu scelerisque felis.</p>
+                        <h2 class="h4 maatvoering1">Maatvoering</h2>
+                        <p class="card-p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                       </div>
                     </div>
                   </a>
@@ -121,8 +139,8 @@
                     <div onclick="openPage(event, 'opleiding-pagina')" class="card opleiding-card">
                       <img src="images/new-images/IMG-20240521-WA0026.jpg" alt="opleiding afbeelding" width="300px" height="200px">
                       <div class="card-text">
-                        <p class="h4 opleiding1">Opleiding</p>
-                        <p class="card-p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Venenatis tellus in metus vulputate eu scelerisque felis.</p>
+                        <h2 class="h4 opleiding1">Opleiding</h2>
+                        <p class="card-p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                       </div>
                     </div>
                   </a>
@@ -130,8 +148,8 @@
                     <div onclick="openPage(event, 'kadaster-pagina')" class="card kadaster-card">
                       <img src="images/new-images/IMG-20240521-WA0002.jpg" alt="kadaster afbeelding" width="300px" height="200px">
                       <div class="card-text">
-                        <p class="h4 kadaster1">Kadaster</p>
-                        <p class="card-p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Venenatis tellus in metus vulputate eu scelerisque felis.</p>
+                        <h2 class="h4 kadaster1">Kadaster</h2>
+                        <p class="card-p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                       </div>
                     </div>
                   </a>
@@ -141,60 +159,89 @@
     
           <div class="infotabs">
             <div id="landmeten-pagina" class="tabcontent">
-              <img class="img-1">
-              <h1 id="landmeten">Landmeten</h1>
-              <ul>
-                <li>Deformatie XYZ</li>
-                <li>Revisie</li>
-                <li>BAG BGT</li>
-                <li>Nulmeting</li>
-                <li>Hoeveelheden</li>
-                <li>Proefsleuven</li>
-                <li>Dwarsprofielen</li>
-                <li>Waterpassen</li>
-              </ul>
+              <div class="home-info">
+                <div class="home-info-text">
+                  <div class="home-info-text-text">
+                    <div class="list">
+                      <h1 id="landmeten">Landmeten</h1>
+                      <ul>
+                        <li>Deformatie XYZ</li>
+                        <li>Revisie</li>
+                        <li>BAG BGT</li>
+                        <li>Nulmeting</li>
+                        <li>Hoeveelheden</li>
+                        <li>Proefsleuven</li>
+                        <li>Dwarsprofielen</li>
+                        <li>Waterpassen</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="img-container">
+                  <img class="img-1">
+                </div>
+              </div>
             </div>
         
             <div id="maatvoering-pagina" class="tabcontent">
-              <img class="img-2">
-              <h1 id="maatvoering">maatvoering</h1>
-              <ul>
-                <li>Bouw</li>
-                <li>Wegenbouw</li>
-              </ul>
+              <div class="home-info">
+                <div class="home-info-text">
+                  <div class="home-info-text-text">
+                    <div class="list">
+                      <h1 id="maatvoering">Maatvoering</h1>
+                      <ul>
+                        <li>Bouw</li>
+                        <li>Wegenbouw</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="img-container">
+                  <img class="img-2">
+                </div>
+              </div>
             </div>
     
             <div id="opleiding-pagina" class="tabcontent">
-              <img class="img-3">
-              <h1 id="opleiding">opleiding</h1>
-              <ul>
-                <li>Basis Landmeetkunde </li>
-                <li>Meten met GNSS</li>
-                <li>Meten met Total Station</li>
-                <li>Waterpassen analoog</li>
-                <li>Waterpassen digitaal</li>
-                <li>Maatvoering Wegenbouw</li>
-                <li>Maatvoering Bouw</li>
-                <li>Werkvoorbereiding</li>
-                <li>HTW conform meten en 1ste faseverwerking</li>
-                <li>Kadastrale reconstructie</li>
-                <li>Maatwerk Trajecten</li>
-                <li>Deformatiemeting 1D</li>
-                <li>Deformatiemeting 3D</li>
-                <li>Revisiemetingen ondergronds</li>
-              </ul>
-              <ul>
-                <li>Traject Landmeten 6 dagen</li>
-                <li>
-                  <ol>
-                    <li>Inleiding Landmeten</li>
-                    <li>Meten en uitzetten met Total Station</li>
-                    <li>Meten en uitzetten met GNSS</li>
-                    <li>Werkvoorbereiding </li>
-                    <li>Revisie</li>
-                  </ol>
-                </li>
-              </ul>
+              <div class="home-info">
+                <div class="home-info-text">
+                  <div class="home-info-text-text">
+                    <div class="list-opleiding">
+                      <h1 id="opleiding">Opleiding</h1>
+                      <ul  class="ul-margin">
+                        <li>Basis Landmeetkunde </li>
+                        <li>Meten met GNSS</li>
+                        <li>Meten met Total Station</li>
+                        <li>Waterpassen analoog</li>
+                        <li>Waterpassen digitaal</li>
+                        <li>Maatvoering Wegenbouw</li>
+                        <li>Maatvoering Bouw</li>
+                        <li>Werkvoorbereiding</li>
+                        <li>HTW conform meten en 1ste faseverwerking</li>
+                        <li>Kadastrale reconstructie</li>
+                        <li>Maatwerk Trajecten</li>
+                        <li>Deformatiemeting 1D</li>
+                        <li>Deformatiemeting 3D</li>
+                        <li>Revisiemetingen ondergronds</li>
+                      </ul>
+                      <ul class="ul-margin-ul">
+                        <li>Traject Landmeten 6 dagen</li>
+                          <ol>
+                            <li>Inleiding Landmeten</li>
+                            <li>Meten en uitzetten met Total Station</li>
+                            <li>Meten en uitzetten met GNSS</li>
+                            <li>Werkvoorbereiding </li>
+                            <li>Revisie</li>
+                          </ol>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="img-container">
+                  <img class="img-5">
+                </div>
+              </div>
+              <div class="border"></div>
 
               <h2>Basis Landmeetkunde</h2>
               <h3>De volgende onderwerpen komen aan de orde:</h3>
@@ -346,33 +393,82 @@
             </div>
 
             <div id="kadaster-pagina" class="tabcontent">
-              <img class="img-4">
-              <h1 id="kadaster">Kadaster</h1>
-              <ul>
-                <li>Reconstructie</li>
-                <li>Meetgegevens Derden</li>
-                <li>Splitsingen</li>
-              </ul>
+              <div class="home-info">
+                <div class="home-info-text">
+                  <div class="home-info-text-text">
+                    <div class="list-kadaster">
+                      <h1 id="kadaster">Kadaster</h1>
+                      <ul>
+                        <li>Reconstructie</li>
+                        <li>Meetgegevens Derden</li>
+                        <li>Splitsingen</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="img-container">
+                  <img class="img-4">
+                </div>
+              </div>
             </div>
     
             <div id="contact-pagina" class="tabcontent">
-              <img class="img-5">
-              <h2 id="contact">Contact</h2>
-              <div class="contact-info">
-                <div class="img">
-                  <img src="images/default-profile-picture.jpg" alt="profiel foto Chris van Trigt">
+              <div class="home-info">
+                <div class="home-info-text">
+                  <div class="home-info-text-text">
+                    <div class="list">
+                      <h2 id="contact">Contact</h2>
+                      <div class="contact-info">
+                        <div class="ul">
+                          <ul>
+                            <li>ing. Chris van Trigt</li>
+                            <li>
+                              <a href="tel:+31622092727" target="_blank" rel="noopener noreferrer">
+                                <img class="light-theme" src="images/icons/phone-icon-e6e6e6-light.png" height="32px" width="32px">
+                                <img class="dark-theme" src="images/icons/phone-icon-262626.png" height="32px" width="32px">
+                                <div>(06) 22 09 27 27</div>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="mailto:info@horizongeodesie.nl" target="_blank" rel="noopener noreferrer">
+                                <img class="light-theme" src="images/icons/mail-icon-light.png" height="32px" width="32px">
+                                <img class="dark-theme" src="images/icons/mail-icon.png" height="32px" width="32px">
+                                <div>info@horizongeodesie.nl</div>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="https://wa.me/+31622092727" target="_blank" rel="noopener noreferrer">
+                                <img class="light-theme" src="images/icons/whatsapp-icon-light.png" height="32px" width="32px">
+                                <img class="dark-theme" src="images/icons/whatsapp-icon.png" height="32px" width="32px">
+                                <div>(06) 22 09 27 27</div>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="https://www.google.nl/maps/place/Horizon+Geodesie/@52.0330385,6.4593058,17z/data=!3m1!4b1!4m6!3m5!1s0x47c7886032601acd:0x47c295274ae94773!8m2!3d52.0330352!4d6.4618807!16s%2Fg%2F1v2yy2vk?entry=ttu" target="_blank" rel="noopener noreferrer">
+                                <img class="light-theme" src="images/icons/location-icon-e6e6e6-light.png" width="32px" height="32px">
+                                <img class="dark-theme" src="images/icons/location-icon-262626.png" width="32px" height="32px">
+                                <div>Strengendijk 2, Ruurlo</div>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="https://nl.linkedin.com/" target="_blank" rel="noopener noreferrer">
+                                <img class="light-theme" src="images/icons/linkedin-icon-light.png" height="32px" width="32px">
+                                <img class="dark-theme" src="images/icons/linkedin-icon.png" height="32px" width="32px">
+                                <div>Horizon Geodesie</div>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="https://www.kvk.nl/bestellen/#/09221725000003171213" target="_blank" rel="noopener noreferrer">Kvk: 09221725</a>
+                            </li>
+                            <li>Btw: 1662.37.127.B.01</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div class="ul">
-                  <ul>
-                    <li>ing. Chris van Trigt</li>
-                    <li><a href="tel:+31622092727" target="_blank" rel="noopener noreferrer"><img src="images/phone-icon-1a1a1a.png" height="32px" width="32px"><div>(06) 22 09 27 27</div></a></li>
-                    <li><a href="mailto:info@horizongeodesie.nl" target="_blank" rel="noopener noreferrer"><img src="images/mail-icon.png" height="32px" width="32px"><div>info@horizongeodesie.nl</div></a></li>
-                    <li><a href="https://wa.me/+31622092727" target="_blank" rel="noopener noreferrer"><img src="images/whatsapp-icon.png" height="32px" width="32px"><div>(06) 22 09 27 27</div></a></li>
-                    <li><a href="https://www.google.nl/maps/place/Horizon+Geodesie/@52.0330385,6.4593058,17z/data=!3m1!4b1!4m6!3m5!1s0x47c7886032601acd:0x47c295274ae94773!8m2!3d52.0330352!4d6.4618807!16s%2Fg%2F1v2yy2vk?entry=ttu" target="_blank" rel="noopener noreferrer"><img src="images/location-icon-1a1a1a.png" width="32px" height="32px"><div>Strengendijk 2, Ruurlo</div></a></li>
-                    <li><a href="https://nl.linkedin.com/" target="_blank" rel="noopener noreferrer"><img src="images/linkedin-icon.png" height="32px" width="32px"><div>Horizon Geodesie</div></a></li>
-                    <li><a href="https://www.kvk.nl/bestellen/#/09221725000003171213" target="_blank" rel="noopener noreferrer">Kvk: 09221725</a></li>
-                    <li>Btw: 1662.37.127.B.01</li>
-                  </ul>
+                <div class="img-container">
+                  <img class="img-6">
                 </div>
               </div>
             </div>
@@ -390,11 +486,41 @@
     <div class="footer">
       <div class="footer-info">
         <ul>
-          <li><a href="tel:+31622092727" target="_blank" rel="noopener noreferrer"><img src="images/phone-icon-1a1a1a.png" height="32px" width="32px"><div>(06) 22 09 27 27</div></a></li>
-          <li><a href="mailto:info@horizongeodesie.nl" target="_blank" rel="noopener noreferrer"><img src="images/mail-icon.png" height="32px" width="32px"><div>info@horizongeodesie.nl</div></a></li>
-          <li><a href="https://wa.me/+31622092727" target="_blank" rel="noopener noreferrer"><img src="images/whatsapp-icon.png" height="32px" width="32px"><div>(06) 22 09 27 27</div></a></li>
-          <li><a href="https://www.google.nl/maps/place/Horizon+Geodesie/@52.0330385,6.4593058,17z/data=!3m1!4b1!4m6!3m5!1s0x47c7886032601acd:0x47c295274ae94773!8m2!3d52.0330352!4d6.4618807!16s%2Fg%2F1v2yy2vk?entry=ttu" target="_blank" rel="noopener noreferrer"><img src="images/location-icon-1a1a1a.png" width="32px" height="32px"><div>Strengendijk 2, Ruurlo</div></a></li>
-          <li><a href="https://nl.linkedin.com/" target="_blank" rel="noopener noreferrer"><img src="images/linkedin-icon.png" height="32px" width="32px"><div>Horizon Geodesie</div></a></li>
+          <li>
+            <a href="tel:+31622092727" target="_blank" rel="noopener noreferrer">
+              <img class="light-theme" src="images/icons/phone-icon-ffffff-light.png" height="32px" width="32px">
+              <img class="dark-theme" src="images/icons/phone-icon-1a1a1a.png" height="32px" width="32px">
+              <div>(06) 22 09 27 27</div>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:info@horizongeodesie.nl" target="_blank" rel="noopener noreferrer">
+              <img class="light-theme" src="images/icons/mail-icon-light.png" height="32px" width="32px">
+              <img class="dark-theme" src="images/icons/mail-icon.png" height="32px" width="32px">
+              <div>info@horizongeodesie.nl</div>
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/+31622092727" target="_blank" rel="noopener noreferrer">
+              <img class="light-theme" src="images/icons/whatsapp-icon-light.png" height="32px" width="32px">
+              <img class="dark-theme" src="images/icons/whatsapp-icon.png" height="32px" width="32px">
+              <div>(06) 22 09 27 27</div>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.google.nl/maps/place/Horizon+Geodesie/@52.0330385,6.4593058,17z/data=!3m1!4b1!4m6!3m5!1s0x47c7886032601acd:0x47c295274ae94773!8m2!3d52.0330352!4d6.4618807!16s%2Fg%2F1v2yy2vk?entry=ttu" target="_blank" rel="noopener noreferrer">
+              <img class="light-theme" src="images/icons/location-icon-ffffff-light.png" width="32px" height="32px">
+              <img class="dark-theme" src="images/icons/location-icon-1a1a1a.png" width="32px" height="32px">
+              <div>Strengendijk 2, Ruurlo</div>
+            </a>
+          </li>
+          <li>
+            <a href="https://nl.linkedin.com/" target="_blank" rel="noopener noreferrer">
+              <img class="light-theme" src="images/icons/linkedin-icon-light.png" height="32px" width="32px">
+              <img class="dark-theme" src="images/icons/linkedin-icon.png" height="32px" width="32px">
+              <div>Horizon Geodesie</div>
+            </a>
+          </li>
         </ul>
 
       </div>

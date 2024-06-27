@@ -1,6 +1,270 @@
 @font-face {
   font-family: Tw Cen MT;
-  src: url(tw-cen-mt/tw-cen-mt.ttf);
+  src: url(font/tw-cen-mt/tw-cen-mt.ttf);
+}
+@font-face {
+  font-family: Tw Cen MT;
+  src: url(font/tw-cen-mt-light/tw-cen-mt-std-lightt.otf);
+  font-weight: 200;
+}
+@font-face {
+  font-family: Verdana;
+  src: url(font/verdana-regular/verdana-regular.ttf);
+}
+@font-face {
+  font-family: Helvetica;
+  src: url(font/helvetica-light/helvetica-light.ttf);
+  font-weight: 100;
+}
+
+@media (prefers-color-scheme: dark) {
+  .light-theme{
+    display: none;
+  }
+
+  body{
+    background-color: #333;
+    color: #ffffff;
+  }
+
+  a{
+    color: #ffffff;
+  }
+
+  .horizongeodesie-colors{
+    background-color: #1a1a1a;
+  }
+
+  .header{
+    background-color: #1a1a1a;
+  }
+
+  .logo{
+    color: #ffffff;
+  }
+
+  .logo-text a .anchor-link{
+    background-color: #1a1a1a;
+    color: #ffffff;
+  }
+
+  .logo-text a .anchor-link:hover{
+    background-color: #262626;
+    text-shadow: 2px 2px 5px #000000;
+  }
+
+  .landmeten{
+    background-color: #1a1a1a;
+  }
+
+  .landmeten:hover{
+    background-color: #262626;
+    text-shadow: 2px 2px 5px #000000;
+  }
+
+  .maatvoering{
+    background-color: #1a1a1a;
+  }
+
+  .maatvoering:hover{
+    background-color: #262626;
+    text-shadow: 2px 2px 5px #000000;
+  }
+
+  .opleiding{
+    background-color: #1a1a1a;
+  }
+
+  .opleiding:hover{
+    background-color: #262626;
+    text-shadow: 2px 2px 5px #000000;
+  }
+
+  .tab-links a button{
+    background-color: #1a1a1a;
+    color: #ffffff;
+  }
+
+  .tab-links a button:hover{
+    background-color: #262626;
+    text-shadow: 2px 2px 5px #000000;
+  }
+
+  @media screen and (max-width: 1240px){
+    .tab.responsive .tab-link{
+      background-color: #1a1a1a;
+    }
+  }
+
+  @media screen and (max-width: 680px){
+    .icon{
+      background-color: #1a1a1a;
+    }
+
+    .tab.responsive .tab-links{
+      background-color: #1a1a1a;
+    }
+  }
+
+  .tabcontent{
+    text-shadow: 2px 2px 5px #000000;
+  }
+
+  .tabcontent p{
+    text-shadow: 2px 2px 5px #000000;
+  }
+
+  .home-info{
+    background-color: #262626;
+  }
+
+  .home-info-text-text .anchor-link.kadaster1:hover{
+    text-shadow: 2px 2px 5px #ffffff;
+    color: #ffffff;
+  }
+
+  .border{
+    background-color: #1a1a1a;
+  }
+
+  .card{
+    background-color: #1a1a1a;
+  }
+
+  .card img{
+    border-bottom: #262626 solid 2px;
+  }
+
+  .footer{
+    background-color: #1a1a1a;
+    color: #ffffff;
+  }
+
+  .footer-info ul li:hover{
+    text-shadow: 2px 2px 5px #000000;
+  }
+}
+@media (prefers-color-scheme: light) {
+  .dark-theme{
+    display: none;
+  }
+
+  body{
+    background-color: #e6e6e6;
+    color: #1a1a1a;
+  }
+
+  a{
+    color: #1a1a1a;
+  }
+
+  .horizongeodesie-colors{
+    background-color: #ffffff;
+  }
+
+  .header{
+    background-color: #ffffff;
+  }
+
+  .logo{
+    color: #1a1a1a;
+  }
+
+  .logo-text a .anchor-link{
+    background-color: #ffffff;
+    color: #1a1a1a;
+  }
+
+  .logo-text a .anchor-link:hover{
+    background-color: #f2f2f2;
+  }
+
+  .landmeten{
+    background-color: #ffffff;
+  }
+
+  .landmeten:hover{
+    background-color: #f2f2f2;
+    text-shadow: 2px 2px 5px #ffffff;
+  }
+
+  .maatvoering{
+    background-color: #ffffff;
+  }
+
+  .maatvoering:hover{
+    background-color: #f2f2f2;
+    text-shadow: 2px 2px 5px #ffffff;
+  }
+
+  .opleiding{
+    background-color: #ffffff;
+  }
+
+  .opleiding:hover{
+    background-color: #f2f2f2;
+    text-shadow: 2px 2px 5px #ffffff;
+  }
+
+  .tab-links a button{
+    background-color: #ffffff;
+    color: #1a1a1a;
+  }
+
+  .tab-links a button:hover{
+    background-color: #f2f2f2;
+    text-shadow: 2px 2px 5px #ffffff;
+  }
+
+  @media screen and (max-width: 1240px){
+    .tab.responsive .tab-link{
+      background-color: #ffffff;
+    }
+  }
+
+  @media screen and (max-width: 680px){
+    .icon{
+      background-color: #ffffff;
+    }
+
+    .tab.responsive .tab-links{
+      background-color: #ffffff;
+    }
+  }
+
+  .tabcontent p{
+    text-shadow: 2px 2px 5px #ffffff;
+  }
+
+  .home-info{
+    background-color: #f2f2f2;
+  }
+
+  .home-info-text-text .anchor-link.kadaster1:hover{
+    text-shadow: 2px 2px 5px #1a1a1a;
+    color: #1a1a1a;
+  }
+
+  .border{
+    background-color: #ffffff;
+  }
+
+  .card{
+    background-color: #ffffff;
+  }
+
+  .card img{
+    border-bottom: #f2f2f2 solid 2px;
+  }
+
+  .footer{
+    background-color: #ffffff;
+    color: #1a1a1a;
+  }
+  
+  .footer-info ul li:hover{
+    text-shadow: 2px 2px 5px #ffffff;
+  }
 }
 
 *{
@@ -10,11 +274,9 @@
 
 body{
   margin: 0;
-  background-color: #333;
   display: flex;
   height: 100vh;
   flex-direction: column;
-  color: white;
 }
 
 .body-div{
@@ -26,39 +288,66 @@ body{
   flex-grow: 1;
 }
 
-a{
-  text-decoration: none;
-  color: white;
-}
-
 h1{
-  font-size: calc(35.5px + 1.5vw);
-  margin: calc(17px + 1vw) 0;
+  font-size: 40px;
+  margin: 20 0;
   font-weight: normal;
 }
 h2{
-  font-size: calc(27px + 1vw);
-  margin: calc(12px + 1vw) 0;
+  font-size: 30px;
+  margin: 15px 0;
   font-weight: normal;
 }
 h3{
-  font-size: calc(18.5px + .5vw);
-  margin: calc(7px +1vw) 0;
-  font-weight: 700;
+  font-size: 20px;
+  margin: 10px 0;
+  font-weight: normal;
 }
 p{
-  font-size: calc(18.5px + .5vw);
-  font-weight: 200;
+  font-size: 20px;
+  margin: 10px 0;
+  font-weight: normal;
 }
 ul{
-  font-size: calc(18.5px + .5vw);
+  font-size: 20px;
+  margin: 10px 0;
+  font-weight: normal;
+}
+
+.page-container h1{
+  font-size: 40px;
+  margin: 20 0;
+  font-weight: normal;
+}
+.page-container h2{
+  font-size: 30px;
+  margin: 15px 0;
+  font-weight: normal;
+}
+.page-container h3{
+  font-size: 20px;
+  margin: 10px 0;
+  font-weight: normal;
+}
+.page-container p{
+  font-size: 20px;
+  margin: 10px 0;
+  font-weight: 100;
+  letter-spacing: 1px;
+  line-height: 1.2;
+}
+.page-container ul{
+  font-size: 20px;
+  margin: 10px 0;
+  font-weight: 100;
+  letter-spacing: 1px;
+  line-height: 1.2;
 }
 
 .horizongeodesie-colors{
   display: flex;
   height: 12.5px;
   width: 100%;
-  background-color: #1a1a1a;
 }
 .green{
   background-color: #42b84c;
@@ -82,10 +371,9 @@ ul{
 .header{
   display: flex;
   justify-content: space-between;
-  background-color: #1a1a1a;
   box-sizing: border-box;
   height: 125px;
-  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
   z-index: 5;
   
 }
@@ -96,7 +384,6 @@ ul{
   display: flex;
   margin: 25px 0.5vw 25px 4vw;
   font-size: 40px;
-  color: white;
   height: 75px;
 }
 
@@ -123,22 +410,17 @@ ul{
   padding: 10.75px;
   border: none;
   width: 309px;
-  background-color: #1a1a1a;
-  color: #fff;
   border-radius: 32.25px;
   margin-left: -5px;
 }
 .logo-text a .anchor-link:hover{
-  background-color: #262626;
   color: #5dc1e8;
-  text-shadow: 2px 2px 5px #1a1a1a;
   transition: .5s;
 }
 
 .landmeten{
   color: #42b84c;
   border: none;
-  background-color: #1a1a1a;
   font-size: 15.2px;
   padding: 10.26px;
   border-radius: 18.25px;
@@ -147,7 +429,6 @@ ul{
   color:#5dc1e8;
   text-align: end;
   border: none;
-  background-color: #1a1a1a;
   font-size: 15.2px;
   padding: 10.26px;
   border-radius: 18.25px;
@@ -155,24 +436,17 @@ ul{
 .opleiding{
   color: #ababab;
   border: none;
-  background-color: #1a1a1a;
   font-size: 15.2px;
   padding: 10.26px;
   border-radius: 18.25px;
 }
 .landmeten:hover{
-  background-color: #262626;
-  text-shadow: 2px 2px 5px #1a1a1a;
   transition: .5s;
 }
 .maatvoering:hover{
-  background-color: #262626;
-  text-shadow: 2px 2px 5px #1a1a1a;
   transition: .5s;
 }
 .opleiding:hover{
-  background-color: #262626;
-  text-shadow: 2px 2px 5px #1a1a1a;
   transition: .5s;
 }
 
@@ -203,16 +477,12 @@ ul{
 .tab-links a button{
   padding: 12px;
   font-size: 20px;
-  background-color: #1a1a1a;
-  color: #fff;
   border: none;
   border-radius: 21px;
   background-color: inherit;
   cursor: pointer;
 }
 .tab-links a button:hover{
-  background-color: #262626;
-  text-shadow: 2px 2px 5px #1a1a1a;
   transition: .5s;
 }
 
@@ -271,7 +541,9 @@ ul{
   }
 
 
-    .tab.responsive {position: relative;}
+    .tab.responsive {
+      position: relative;
+    }
     .tab.responsive a.icon {
       position: absolute;
       right: 0;
@@ -282,7 +554,6 @@ ul{
       display: block;
       text-align: right;
       padding: 0px calc(4vw - 12px);
-      background-color: #1a1a1a;
     }
 
     .tab.responsive .tab-links{
@@ -320,7 +591,6 @@ ul{
     right: 0;
     top: 112.5px;
     padding: 6.25px 16px 8px 16px;
-    background-color: #1a1a1a;
   }
 
   .tab{
@@ -341,7 +611,6 @@ ul{
     right: 0;
     top: 0px;
     padding-top: 40px;
-    background-color: #1a1a1a;
     z-index: 1;
   }
     .tab.responsive .tab-link{
@@ -376,21 +645,35 @@ ul{
   animation: fadeEffect 1s; /* Fading effect takes 1 second */
   display: none;
   text-align: center;
-  text-shadow: 2px 2px 5px #1a1a1a;
 }
 
 .tabcontent p{
   width: 80%;
-  max-width: 800px;
+  max-width: 500px;
   margin: auto;
   margin-bottom: 25px;
   text-align: left;
-  text-shadow: 2px 2px 5px #1a1a1a;
 }
+
 
 /* info-tabs section */
 
+.list{
+  margin: auto;
+  width: 200px;
+}
+.list-kadaster{
+  margin: auto;
+  width: 200px;
+}
+.list-kadaster li{
+  margin: auto;
+  width: 200px;
+}
+
+
 .infotabs ul{
+  width: 50%;
   display: inline-block;
   text-align: left;
   margin: auto;
@@ -399,26 +682,45 @@ ul{
 }
 #opleiding-pagina h2{
   width: 80%;
-  max-width: 800px;
+  max-width: 500px;
   margin-left: auto;
   margin-right: auto
 }
 #opleiding-pagina h3{
   width: 80%;
-  max-width: 800px;
+  max-width: 500px;
   margin-left: auto;
   margin-right: auto
 }
 #opleiding-pagina ul{
   display: block;
   width: 80%;
-  max-width: 720px;
+  max-width: 420px;
   margin: auto;
   margin-bottom: 50px;
   padding-left: 40px;
 }
+.ul-margin{
+  margin: 0 auto !important;
+  padding: 0 !important;
+}
+.ul-margin li{
+  width: 100%;
+}
+.ul-margin-ul{
+  margin: 0 auto !important;
+  padding: 0 !important;
+}
+h1#opleiding{
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
 #opleiding-pagina ul li{
   list-style: disc;
+}
+#opleiding-pagina ul ol li{
+  list-style-type: decimal;
 }
 
 
@@ -429,20 +731,6 @@ ul{
   flex-wrap: wrap;
 }
 
-.contact-info .img{
-  width: calc(242px + 4vw);
-  margin-right: 3vw;
-}
-
-.contact-info .img img{
-  width: calc(200px + 4vw);
-  margin: 37.5px 12.5px;
-  height: auto;
-  border: #1a1a1a 2px solid;
-  border-radius: 12.5px;
-  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-  float: right;
-}
 
 .contact-info .ul{
   margin-left: 3vw;
@@ -472,6 +760,7 @@ ul{
 .contact-info .ul ul li img{
   height: calc(31px + .333vw);
   width: calc(31px + .333vw);
+  border-radius: 50%;
 }
 
 .contact-info .ul ul li a:hover{
@@ -482,7 +771,6 @@ ul{
 .contact-info .ul ul li a:hover img{
   opacity: 0.8;
   box-shadow: #5dc1e8 0px 2px 4px 0px, #5dc1e8 0px 2px 16px 0px;
-  border-radius: 50%;
   transition: .5s;
 }
 
@@ -504,56 +792,77 @@ ul{
 
 /* Slideshow container */
 .slideshow-container {
-  position: relative;
-  margin: auto;
+  margin: 0 auto;
   z-index: 1;
+  width: 50%;
+  float: right;
+}
+
+.img-container{
+  width: 50%;
 }
 
 .img-1{
   width: 100%;
-  height: 470px;
+  height: 500px;
   background-image: url('images/new-images/IMG-20240521-WA0000.jpg');
   background-size: cover;
   background-position: center center;
   display: block;
   margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 .img-2{
   width: 100%;
-  height: 470px;
+  height: 500px;
   background-image: url('images/new-images/IMG-20240521-WA0001.jpg');
   background-size: cover;
   background-position: center center;
   display: block;
   margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 .img-3{
   width: 100%;
-  height: 470px;
+  height: 500px;
   background-image: url('images/new-images/IMG-20240521-WA0002.jpg');
   background-size: cover;
   background-position: center center;
   display: block;
   margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 .img-4{
   width: 100%;
-  height: 470px;
+  height: 500px;
   background-image: url('images/new-images/IMG-20240521-WA0003.jpg');
   background-size: cover;
   background-position: center center;
   display: block;
   margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 .img-5{
   width: 100%;
-  height: 470px;
+  height: 649px;
   background-image: url('images/new-images/IMG-20240521-WA0004.jpg');
   background-size: cover;
   background-position: center center;
   display: block;
   margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
+.img-6{
+  width: 100%;
+  height: 500px;
+  background-image: url('images/default-profile-picture.jpg');
+  background-size: cover;
+  background-position: center center;
+  display: block;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
 
 
 /* Hide the images by default */
@@ -575,28 +884,93 @@ ul{
 
 /* home info section */
 
-.home-info{
+.home-info-text{
   text-align: center;
-  padding: 25px 0;
-  background-color: #262626;
-  border-bottom: #1a1a1a 2px solid;
+  padding: 0;
+  width: 50%;
+  float: left;
 }
 
-.home-info h2{
-  font-style: italic;
-  font-weight: 200;
+.home-info-text-text{
   width: 80%;
-  max-width: 800px;
+  max-width: 500px;
   margin-left: auto;
   margin-right: auto;
+  text-align: left;
+}
+.home-info-text-text .anchor-link.landmeten1{
+  color: #42b84c;
+}
+.home-info-text-text .anchor-link.landmeten1:hover{
+  text-shadow: 2px 2px 5px #42b84c;
 }
 
-.home-info-p{
-  width: 80%;
-  max-width: 800px;
-  margin: auto;
-  margin-bottom: 25px;
-  text-align: left;
+.home-info-text-text .anchor-link.maatvoering1{
+  color: #5dc1e8;
+}
+.home-info-text-text .anchor-link.maatvoering1:hover{
+  text-shadow: 2px 2px 5px #5dc1e8;
+}
+
+.home-info-text-text .anchor-link.opleiding1{
+  color: #ababab;
+}
+.home-info-text-text .anchor-link.opleiding1:hover{
+  text-shadow: 2px 2px 5px #ababab;
+}
+
+
+.home-info-text p{
+  width: 100%;
+}
+
+.home-info-text button{
+  margin-bottom: 20px;
+  background-color: #5dc1e8;
+  color: #ffffff;
+  border: 0;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  text-shadow: 2px 2px 5px #000000;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.home-info-text button:hover{
+  background-color: #42b84c;
+  color: #ffffff;
+  text-shadow: 2px 2px 5px #000000;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.home-info{
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width:849px){
+  .home-info{
+    flex-direction: column-reverse;
+  }
+
+  .img-5{
+    height: 500px;
+  }
+
+  .slideshow-container {
+    width: 100%;
+  }
+  .home-info-text{
+    width: 100%;
+  }
+
+.img-container{
+  width: 100%;
+}
+}
+
+.border{
+  height: 2px;
+  width: 100%;
 }
 
 /* home diensten section */
@@ -606,10 +980,12 @@ ul{
   flex-wrap: wrap;
   justify-content: center;
 }
+.diensten-cards a{
+  text-decoration: none;
+}
 
 .card{
   width: 300px;
-  background-color: #1a1a1a;
   text-align: center;
   margin-bottom: 50px;
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
@@ -627,11 +1003,11 @@ ul{
 .card img{
   border-top-left-radius: 12.5px;
   border-top-right-radius: 12.5px;
-  border-bottom: #262626 solid 2px;;
 }
 
-.h4{
+h4{
   font-size: 30px;
+  font-weight: normal;
 }
 
 .h4.landmeten1{
@@ -677,8 +1053,6 @@ ul{
 /* footer section */
 
 .footer{
-  background-color: #1a1a1a;
-  color: white;
   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
   width: 100%;
 }
@@ -688,7 +1062,7 @@ ul{
   margin: 0 auto;
   text-align: center;
   padding-bottom: 2vw;
-  font-size: calc(14.5px + .5vw);
+  font-size: 20px;
 }
 
 .footer-info ul{
@@ -708,7 +1082,6 @@ ul{
 
 .footer-info ul li a:hover{
   color: #5dc1e8;
-  text-shadow: 2px 2px 5px #1a1a1a;
   transition: .5s;
 }
 
