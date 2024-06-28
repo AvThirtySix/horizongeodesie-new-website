@@ -745,7 +745,7 @@ ul{
 .contact-info .ul ul{
   display: block;
   box-sizing: border-box;
-  padding: 2vw 0;
+  padding: 0 0 2vw 0;
   margin: 0 12.5px;
   width: calc(242px + 4vw) !important;
 }
@@ -906,6 +906,7 @@ ul{
 }
 .home-info-text-text .anchor-link.landmeten1{
   color: #42b84c;
+  text-decoration: underline;
 }
 .home-info-text-text .anchor-link.landmeten1:hover{
   text-shadow: 2px 2px 5px #42b84c;
@@ -913,6 +914,7 @@ ul{
 
 .home-info-text-text .anchor-link.maatvoering1{
   color: #5dc1e8;
+  text-decoration: underline;
 }
 .home-info-text-text .anchor-link.maatvoering1:hover{
   text-shadow: 2px 2px 5px #5dc1e8;
@@ -920,9 +922,13 @@ ul{
 
 .home-info-text-text .anchor-link.opleiding1{
   color: #ababab;
+  text-decoration: underline;
 }
 .home-info-text-text .anchor-link.opleiding1:hover{
   text-shadow: 2px 2px 5px #ababab;
+}
+.home-info-text-text .anchor-link.kadaster1{
+  text-decoration: underline;
 }
 
 
