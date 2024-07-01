@@ -7,15 +7,6 @@
   src: url(font/tw-cen-mt-light/tw-cen-mt-std-lightt.otf);
   font-weight: 200;
 }
-@font-face {
-  font-family: Verdana;
-  src: url(font/verdana-regular/verdana-regular.ttf);
-}
-@font-face {
-  font-family: Helvetica;
-  src: url(font/helvetica-light/helvetica-light.ttf);
-  font-weight: 100;
-}
 
 @media (prefers-color-scheme: dark) {
   .light-theme{
